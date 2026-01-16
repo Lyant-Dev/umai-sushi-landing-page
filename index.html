@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Umai Sushi!</title>
+    <!-- FAV-ICON -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- REMIX-ICON -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"
+          ><img src="assets/img/sushi.png" alt="logo image" />Umai Sushi</a
+        >
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Us</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">Popular</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#recently" class="nav__link">Recently</a>
+            </li>
+          </ul>
+          <!-- Close Button  -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+
+          <img
+            src="assets/img/leaf-branch-4.png"
+            alt="nav-image"
+            class="nav__img-1"
+          />
+          <img
+            src="assets/img/leaf-branch-3.png"
+            alt="nav-image"
+            class="nav__img-2"
+          />
+        </div>
+        <div class="nav__buttons">
+          <!-- Theme Change Button  -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle Button  -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN JS -->
+    <main class="main">
+      <!-- HOME  -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img
+            src="assets/img/home-sushi-roll.png"
+            alt="home image"
+            class="home__img"
+          />
+          <div class="home__data">
+            <h1 class="home__title">
+              Nikmati Hidangan
+              <div>
+                <img src="assets/img/home-title.png" alt="home image" />
+                Sushi Berkualitas
+              </div>
+            </h1>
+            <p class="home__description">
+              Sajikan hidangan berkelas dan buat harimu lebih mewah!
+            </p>
+            <a href="#contact" class="button">
+              Pesan Sekarang <i class="ri-arrow-right-fill"></i>
+            </a>
+          </div>
+        </div>
+        <img
+          src="assets/img/leaf-branch-2.png"
+          alt="home image"
+          class="home__leaf-1"
+        />
+        <img
+          src="assets/img/leaf-branch-4.png"
+          alt="home image"
+          class="home__leaf-2"
+        />
+      </section>
+      <!-- ABOUT  -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <span class="section__subtitle">About Us</span>
+            <h2 class="section__title about__title">
+              <div>
+                Kita menyediakan hidangan favorit!
+                <img src="assets/img/about-title.png" alt="about image" />
+              </div>
+            </h2>
+
+            <p class="about__description">
+              Hidangan didatangkan dari negeri yang jauh, baik itu menggunakan
+              sayap atau sirip. Inilah alasan kita berkarya, dan yang berbudaya.
+              Mempunyai sejarah yang diturunkan dari generasi ke generasi.
+            </p>
+          </div>
+          <img
+            src="assets/img/about-sushi.png"
+            alt="about image"
+            class="about__img"
+          />
+        </div>
+        <img
+          src="assets/img/leaf-branch-1.png"
+          alt="zbout image"
+          class="about__leaf"
+        />
+      </section>
+      <!-- POPULAR  -->
+      <section class="popular section" id="popular">
+        <span class="section__subtitle">The Best Food</span>
+        <h2 class="section__title">Hidangan Populer</h2>
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <img
+              src="assets/img/popular-onigiri.png"
+              alt="popular__img"
+              class="popular__img"
+            />
+            <h3 class="popular__name">Onigiri</h3>
+            <span class="popular__description">japanese Dish</span>
+            <span class="popular__price">$9.99</span>
+            <button class="popular__button">
+              <i class="ri-shopping-bag-4-line"></i>
+            </button>
+          </article>
+          <article class="popular__card">
+            <img
+              src="assets/img/popular-sushi-roll.png"
+              alt="popular__img"
+              class="popular__img"
+            />
+            <h3 class="popular__name">Sushi Roll</h3>
+            <span class="popular__description">japanese Dish</span>
+            <span class="popular__price">$12.99</span>
+            <button class="popular__button">
+              <i class="ri-shopping-bag-4-line"></i>
+            </button>
+          </article>
+          <article class="popular__card">
+            <img
+              src="assets/img/popular-rice-bowl.png"
+              alt="popular__img"
+              class="popular__img"
+            />
+            <h3 class="popular__name">Rice Bowl</h3>
+            <span class="popular__description">japanese Dish</span>
+            <span class="popular__price">$20.99</span>
+            <button class="popular__button">
+              <i class="ri-shopping-bag-4-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+      <!-- RECENTLY  -->
+      <section class="recently section" id="recently">
+        <div class="recently__container container grid">
+          <div class="recently__data">
+            <span class="section__subtitle">Recently Added</span>
+            <h2 class="section__title">
+              Delicious Ikura <br />
+              Sushi Roll
+            </h2>
+            <p class="recently__description">
+              Lihat apa yang baru! Manjakan lidahmu dan buat hatimu bahagia
+              dengan menu baru kami!
+            </p>
+            <a href="#contact" class="button">
+              Konsultasikan Menu<i class="ri-arrow-right-fill"></i>
+            </a>
+            <img
+              src="assets/img/lettuce.png"
+              alt="recently img"
+              class="recently__data-img"
+            />
+          </div>
+          <img
+            src="assets/img/delicious-ikura-sushi-roll.png"
+            alt="recently image"
+            class="recently__img"
+          />
+        </div>
+        <img
+          src="assets/img/leaf-branch-2.png"
+          alt="recently__image"
+          class="recently__leaf-1"
+        />
+        <img
+          src="assets/img/leaf-branch-3.png"
+          alt="recently__image"
+          class="recently__leaf-2"
+        />
+      </section>
+      <!-- Contact  -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__data">
+            <span class="section__subtitle">Contact</span>
+            <h2 class="section__title">Order Now</h2>
+            <p class="contact__copy">
+              Hubungi kami sekarang untuk pemesanan, reservasi, dan pertanyaan
+              lainnya.
+            </p>
+            <div class="contact__button">
+              <a
+                href="#https://wa.me/628XXXXXXXXXX"
+                target="_blank"
+                class="button"
+              >
+                WhatsApp Kami <i class="ri-whatsapp-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <img src="assets/img/sushi.png" alt="logo image" />
+            Umai Sushi
+          </a>
+
+          <p class="footer__description">
+            Food for the body is not <br />
+            enough. There must be food <br />
+            for the soul.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">Main Menu</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="" class="footer__link">About</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Menu</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Offer</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Events</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Information</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="" class="footer__link">Contact</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Order & Returns</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Videos</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Reservation</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title"></h3>
+
+            <ul class="footer__links">
+              <li class="footer__information">
+                Av. Hokkaido 1222 <br />
+                Grandline 4322, Japan
+              </li>
+              <li class="footer__information">9AM - 10PM</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Social Media</h3>
+
+            <ul class="footer__social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="ri-facebook-fill"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="ri-instagram-fill"></i
+              ></a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="ri-twitter-fill"></i
+              ></a>
+            </ul>
+          </div>
+        </div>
+        <img
+          src="assets/img/spring-onion.png"
+          alt="footer image"
+          class="footer__onion"
+        />
+        <img
+          src="assets/img/lettuce.png"
+          alt="footer image"
+          class="footer__spinach"
+        />
+        <img
+          src="assets/img/leaf-branch-4.png"
+          alt="footer image"
+          class="footer__leaf"
+        />
+      </div>
+      <div class="footer__info container">
+        <div class="footer__card">
+          <img src="assets/img/footer-1.png" alt="footer image" />
+          <img src="assets/img/footer-2.png" alt="footer image" />
+          <img src="assets/img/footer-3.png" alt="footer image" />
+          <img src="assets/img/footer-4.png" alt="footer image" />
+        </div>
+        <span class="footer__copy">
+          &#169; Copyright Lyantdev. All rights reserved
+        </span>
+      </div>
+    </footer>
+
+    <!-- Scroll Up  -->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!-- Scroll Reveal  -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!-- Main JS  -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
