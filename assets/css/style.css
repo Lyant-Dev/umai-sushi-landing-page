@@ -395,6 +395,8 @@ in Light theme  */
 }
 
 .about__title div {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 0.3rem;
@@ -729,6 +731,13 @@ in Light theme  */
   .home__leaf-2 {
     bottom: 0;
   }
+  .about__title div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+  }
   .about__leaf {
     bottom: 8rem;
   }
@@ -744,7 +753,7 @@ in Light theme  */
 @media screen and (min-width: 576px) {
   .home__container,
   .about__container,
-  .recently__container{
+  .recently__container {
     grid-template-columns: 0.7fr;
     justify-content: center;
   }
@@ -870,7 +879,7 @@ in Light theme  */
   }
   .recently__img {
     width: 480px;
-  }  
+  }
   .footer {
     padding-block: 8rem 3rem;
   }
