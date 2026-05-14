@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -84,7 +84,7 @@
             <h1 class="home__title">
               Nikmati Hidangan
               <div>
-                <img src="assets/img/home-title.png" alt="home image" />
+                <img src="assets/img/home-title.png" alt="" />
                 Sushi Berkualitas
               </div>
             </h1>
@@ -150,8 +150,8 @@
             />
             <h3 class="popular__name">Onigiri</h3>
             <span class="popular__description">japanese Dish</span>
-            <span class="popular__price">$9.99</span>
-            <button class="popular__button">
+            <span class="popular__price">Rp54.000</span>
+            <button class="popular__button" aria-label="button popular">
               <i class="ri-shopping-bag-4-line"></i>
             </button>
           </article>
@@ -163,8 +163,8 @@
             />
             <h3 class="popular__name">Sushi Roll</h3>
             <span class="popular__description">japanese Dish</span>
-            <span class="popular__price">$12.99</span>
-            <button class="popular__button">
+            <span class="popular__price">Rp65.000</span>
+            <button class="popular__button" aria-label="button popular">
               <i class="ri-shopping-bag-4-line"></i>
             </button>
           </article>
@@ -176,8 +176,8 @@
             />
             <h3 class="popular__name">Rice Bowl</h3>
             <span class="popular__description">japanese Dish</span>
-            <span class="popular__price">$20.99</span>
-            <button class="popular__button">
+            <span class="popular__price">Rp120.000</span>
+            <button class="popular__button" aria-label="button popular">
               <i class="ri-shopping-bag-4-line"></i>
             </button>
           </article>
@@ -234,7 +234,8 @@
             </p>
             <div class="contact__button">
               <a
-                href="#https://wa.me/628XXXXXXXXXX"
+                rel="noopener noreferrer"
+                href="https://wa.me/628147986761"
                 target="_blank"
                 class="button"
               >
@@ -268,16 +269,16 @@
 
             <ul class="footer__links">
               <li>
-                <a href="" class="footer__link">About</a>
+                <a href="#about" class="footer__link">About</a>
               </li>
               <li>
-                <a href="" class="footer__link">Menu</a>
+                <a href="#popular" class="footer__link">Menu</a>
               </li>
               <li>
-                <a href="" class="footer__link">Offer</a>
+                <a href="#home" class="footer__link">Offer</a>
               </li>
               <li>
-                <a href="" class="footer__link">Events</a>
+                <a href="#home" class="footer__link">Events</a>
               </li>
             </ul>
           </div>
@@ -286,16 +287,16 @@
 
             <ul class="footer__links">
               <li>
-                <a href="" class="footer__link">Contact</a>
+                <a href="#contact" class="footer__link">Contact</a>
               </li>
               <li>
-                <a href="" class="footer__link">Order & Returns</a>
+                <a href="#contact" class="footer__link">Order & Returns</a>
               </li>
               <li>
-                <a href="" class="footer__link">Videos</a>
+                <a href="#contact" class="footer__link">Videos</a>
               </li>
               <li>
-                <a href="" class="footer__link">Reservation</a>
+                <a href="#contact" class="footer__link">Reservation</a>
               </li>
             </ul>
           </div>
@@ -304,8 +305,8 @@
 
             <ul class="footer__links">
               <li class="footer__information">
-                Av. Hokkaido 1222 <br />
-                Grandline 4322, Japan
+                Surakarta <br />
+                Jawa Tengah, Indonesia
               </li>
               <li class="footer__information">9AM - 10PM</li>
             </ul>
@@ -314,24 +315,26 @@
             <h3 class="footer__title">Social Media</h3>
 
             <ul class="footer__social">
-              <a
-                href="https://www.facebook.com/"
-                target="_blank"
-                class="footer__social-link"
-                ><i class="ri-facebook-fill"></i
-              ></a>
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                class="footer__social-link"
-                ><i class="ri-instagram-fill"></i
-              ></a>
-              <a
-                href="https://twitter.com/"
-                target="_blank"
-                class="footer__social-link"
-                ><i class="ri-twitter-fill"></i
-              ></a>
+              <li>
+                <a
+                  aria-label="facebook link"
+                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/share/1AtTagd5Xn/"
+                  target="_blank"
+                  class="footer__social-link"
+                  ><i class="ri-facebook-fill"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  aria-label="instagram link"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/tideflow.dev?igsh=MW9iMzRvdjVydHc0Yw=="
+                  target="_blank"
+                  class="footer__social-link"
+                  ><i class="ri-instagram-fill"></i
+                ></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -365,7 +368,7 @@
     </footer>
 
     <!-- Scroll Up  -->
-    <a href="" class="scrollup" id="scroll-up">
+    <a aria-label="scroll-up" class="scrollup" id="scroll-up">
       <i class="ri-arrow-up-line"></i>
     </a>
     <!-- Scroll Reveal  -->
